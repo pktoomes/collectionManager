@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="/style.css">
+    <title></title>
+  </head>
+  <body>
+    {{#xperson}}
+    <h1>Update an X-person</h1>
+      <form action="/updateXman" class="updateXman" method="POST">
+        <input class = "xmanId" type="text" name="id" value="{{_id}}" readonly>
+        <input type="text" name="real_name" value= "{{real_name}}">
+        <input type="text" name="codename" value="{{codename}}">
+        <input type="text" name="avatar" value="{{avatar}}">
+        <input type="text" name="team" value="{{team}}">
+        <input type="text" name="powers" value="{{powers}}">
+        <button type="submit">Submit</button>
+      </form>
+      {{/xperson}}
+  </body>
+</html>

@@ -1,0 +1,27 @@
+.xmenContainer{
+  display: flex;
+  flex-wrap: wrap;
+}
+.card{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+	margin: 10px;
+	border: 0.5px solid black;
+  width: 250px;
+  height: 250px;
+}
+.cardImg{
+  height: 100px;
+  width: 100px;
+  margin-left: 75px;
+  margin-right: 75px;
+}
+.xmanId{
+  display: none;
+}
+form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
